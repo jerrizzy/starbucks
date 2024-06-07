@@ -74,4 +74,95 @@ section .content h1{
     margin: 7rem 2rem 0 5rem;
 }
 
-sectiom .content 
+section .content h1 span{
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+section .content p{
+    font-size: 1.2rem;
+    margin: 1rem 2rem 0 5rem;
+}
+
+section .content button{
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    background: #007146;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 1.5rem 0 0 5.5rem;
+    transition: 0.3s linear;
+}
+
+section .content button:hover{
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    box-shadow: 3px 3px black;
+    border-right: 2px solid #007146;
+    border-bottom: 2px solid #007146;
+}
+
+section .image {
+    width: 100%;
+}
+
+section .image .box{
+    position: absolute;
+    background: #007146;
+    width: 900px;
+    height: 900px;
+    right: -370px;
+    bottom: -370px;
+    border-radius: 100%;
+    pointer-events: none;
+    transition: 0.3s ease-in;
+}
+
+section .image .box img{
+    width: 300px;
+    height: 450px;
+    margin: -50px 0 0 0;
+}
+
+section .image .green{
+    opacity: 1;
+    transform: rotate(0deg);
+    filter: drop-shadow(2px 2px 50px #007146);
+}
+
+section .image .green img{
+    width: 330px;
+    transform: rotate(-20deg);
+    filter: drop-shadow(2px 2px 50px #007146);
+}
+
+section .image .orange img{
+    width: 330px;
+    transform: rotate(-20deg);
+    filter: drop-shadow(2px 2px 50px orange);
+}
+
+section .image .oranger{
+    opacity: 0;
+    background: #ff8c00;
+    transform: rotate(-90deg);
+    filter: drop-shadow(2px 2px 50px rgb(0, 0, 0));
+}
+
+section .image .pink{
+    opacity: 0;
+    transform: rotate(-90deg);
+    background-color: #ffffff;
+    filter: drop-shadow(2px 2px 50px rgb(0, 0, 0));
+}
+
+section .image .pink img{
+    transform: rotate(-30deg);
+    height: 520px;
+    margin: -130px 0 0 -30px;
+    filter: drop-shadow(2px 2px 50px rgb(255, 0, 43));
+}
