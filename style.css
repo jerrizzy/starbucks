@@ -146,7 +146,7 @@ section .image .orange img{
     filter: drop-shadow(2px 2px 50px orange);
 }
 
-section .image .oranger{
+section .image .orange{
     opacity: 0;
     background: #ff8c00;
     transform: rotate(-90deg);

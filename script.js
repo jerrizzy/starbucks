@@ -1,11 +1,11 @@
-const gcfe = documemt.querySelector('.gcfe');
-const ocfe = documemt.querySelector('.ocfe');
-const pcfe = documemt.querySelector('.pcfe');
-const green = documemt.querySelector('.green');
-const orange = documemt.querySelector('.orange');
-const pink = documemt.querySelector('.pink');
+const gcfe = document.querySelector('.gcfe');
+const ocfe = document.querySelector('.ocfe');
+const pcfe = document.querySelector('.pcfe');
+const green = document.querySelector('.green');
+const orange = document.querySelector('.orange');
+const pink = document.querySelector('.pink');
 
-gcfe.addEventListener('click', () =>{
+gcfe.addEventListener('click', () => {
     green.style.opacity = '1'
     green.style.transform = 'rotate(0deg)'
 
@@ -15,7 +15,7 @@ gcfe.addEventListener('click', () =>{
     orange.style.transform = 'rotate(-90deg)'
 })
 
-ocfe.addEventListener('click', () =>{
+ocfe.addEventListener('click', () => {
     orange.style.opacity = '1'
     orange.style.transform = 'rotate(0deg)'
 
@@ -25,7 +25,7 @@ ocfe.addEventListener('click', () =>{
     green.style.transform = 'rotate(-90deg)'
 })
 
-pcfe.addEventListener('click', () =>{
+pcfe.addEventListener('click', () => {
     pink.style.opacity = '1'
     pink.style.transform = 'rotate(0deg)'
 
